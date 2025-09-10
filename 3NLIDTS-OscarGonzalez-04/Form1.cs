@@ -21,7 +21,7 @@ namespace _3NLIDTS_OscarGonzalez_04
             tbEdad.TextChanged += validarEdad;             tbApellido.TextChanged += validarApellido;
             tbEstatura.TextChanged += validarEstatura;
             tbTelefono.Leave += validarTelefono;
-            //Oscar Ulises Gonlalez Mazariegos
+            //Oscar Ulises Gonlalez Mazariegos Version 003
         }
         private void validarNombre(object sender, EventArgs e)
         {
