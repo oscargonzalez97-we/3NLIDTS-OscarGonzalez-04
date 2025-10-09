@@ -9,6 +9,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using MySql.Data.MySqlClient;
 
 namespace _3NLIDTS_OscarGonzalez_04
 {
@@ -139,7 +140,7 @@ namespace _3NLIDTS_OscarGonzalez_04
             tbTelefono.Clear();
             tbEstatura.Clear();
             tbEdad.Clear();
-            rbFemenino.Checked = false;
+            rbFemenino.Checked = false;     
             rbMasculino.Checked = false;
 
         }
